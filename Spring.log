@@ -1,0 +1,23 @@
+2022-07-17 13:19:19.679  INFO 8656 --- [main] com.example.ademo.CrudSimpleApplication  : Starting CrudSimpleApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 8656 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\CrudSimple\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\CrudSimple)
+2022-07-17 13:19:19.684  INFO 8656 --- [main] com.example.ademo.CrudSimpleApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-17 13:19:20.165  INFO 8656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-17 13:19:20.295  INFO 8656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 1 JPA repository interfaces.
+2022-07-17 13:19:20.689  INFO 8656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-17 13:19:20.698  INFO 8656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-17 13:19:20.698  INFO 8656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-17 13:19:20.794  INFO 8656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2022-07-17 13:19:20.794  INFO 8656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2022-07-17 13:19:20.908  INFO 8656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-17 13:19:21.197  INFO 8656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-17 13:19:21.238  INFO 8656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-17 13:19:21.293  INFO 8656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-17 13:19:21.472  INFO 8656 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-17 13:19:21.580  INFO 8656 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-17 13:19:21.968  INFO 8656 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-17 13:19:21.974  INFO 8656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 13:19:22.187  WARN 8656 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-17 13:19:22.438  INFO 8656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crud'
+2022-07-17 13:19:22.445  INFO 8656 --- [main] com.example.ademo.CrudSimpleApplication  : Started CrudSimpleApplication in 3.072 seconds (JVM running for 3.663)
+2022-07-17 13:20:05.783  INFO 8656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-17 13:20:05.784  INFO 8656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-17 13:20:05.784  INFO 8656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
