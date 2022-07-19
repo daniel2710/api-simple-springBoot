@@ -6,42 +6,30 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="user", catalog="usuarios", schema="")
+@Table(name="empleados", catalog="usuarios", schema="")
 public class User {
 	
 	@Id
 	@Column
-	private Integer iduser;
-	@Column
-	private String usuario;
-	@Column
-	private String clave;
+	private Integer idempleados;
 	@Column
 	private String nombre;
+	@Column
+	private String apellido;
+	@Column
+	private Integer identificacion;
+	@Column
+	private String rol;
+	@Column
+	private Integer nomina;
 	
 	
 	public Integer getIduser() {
-		return iduser;
+		return idempleados;
 	}
 	
-	public void setIduser(Integer iduser) {
-		this.iduser = iduser;
-	}
-	
-	public String getUsuario() {
-		return usuario;
-	}
-	
-	public void setUsuario(String usuario) {
-		this.usuario = usuario;
-	}
-	
-	public String getClave() {
-		return clave;
-	}
-	
-	public void setClave(String clave) {
-		this.clave = clave;
+	public void setIduser(Integer idempleado) {
+		this.idempleados = idempleado;
 	}
 	
 	public String getNombre() {
@@ -51,6 +39,41 @@ public class User {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
+	
+	public String getApellido() {
+		return apellido;
+	}
+	
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+	
+	public Integer getIdentificacion() {
+		return identificacion;
+	}
+	
+	public void setIdentificacion(Integer identificacion) {
+		this.identificacion = identificacion;
+	}
+	
+	public String getRol() {
+		return rol;
+	}
+	
+	public void setRol(String rol) {
+		this.rol = rol;
+	}
+	
+	public Integer getNomina() {
+		return nomina;
+	}
+	
+	public void setNomina(Integer nomina) {
+		this.nomina = nomina;
+	}
+	
+	
+	
+	
 	
 }
